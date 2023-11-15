@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+TAS+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Bad Script', cursive;
+    --fonte3: 'Passion One', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+
+
+html, body{
+    min-height: 100vh;
+    background-color: gray;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    font-family: var(--fonte3);
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+header p {
+    padding-bottom: 50px;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-family: var(--fonte2);
+    font-weight: bold;
+    font-size: 3.5vw;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgba(83, 13, 13, 0.616);
+    color:white;
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.39);
+}
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.274);
+    display: inline-block;
+    padding: 15px;
+    border-radius: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+
+section#img01{
+    background-image: url('imagens/background001.jpg');
+}
+
+section#img02{
+    background-image: url('imagens/background002.jpg');
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
